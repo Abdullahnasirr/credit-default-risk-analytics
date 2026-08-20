@@ -9,6 +9,14 @@ Predicting credit card default on 30,000 client records, with SQL-based explorat
 - **Simple and complex models perform near-identically** (LR 0.738 vs XGB 0.777), arguing for the interpretable model in a regulated context
 - **SHAP waterfall plots produce adverse action explanations** — the specific, per-applicant reasons lenders are legally required to provide
 
+## Visualizations
+
+### SHAP Global Feature Importance
+![SHAP Summary](dashboard/shap_summary.png)
+
+### Individual Prediction Explanation
+![SHAP Waterfall](dashboard/shap_individual.png)
+
 ## Dataset
 **Source:** [UCI Default of Credit Card Clients](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients) (CC BY 4.0)
 
